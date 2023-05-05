@@ -1,6 +1,6 @@
-backend:
-  name: git-gateway
-  branch: main
+# backend:
+#   name: git-gateway
+#   branch: main
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -19,5 +19,5 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 backend:
   name: github
-  repo: MtPython/decapcms-sample 
+  repo: MtPython/decapcms-sample
   branch: main
